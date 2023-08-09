@@ -1,0 +1,94 @@
+{
+    "projects": {
+        "errors": [],
+        "data": [
+            {
+                "id": "uuid-1",
+                "name": "Project A"
+            },
+            {
+                "id": "uuid-2",
+                "name": "Project B"
+            },
+            {
+                "id": "uuid-3",
+                "name": "Project C"
+            },
+            {
+                "id": "uuid-4",
+                "name": "Project ABC"
+            }
+        ]
+    },
+    "projectArr": [
+        {
+            "id": "8977130a-585f-4331-8bb6-15f65981a56b",
+            "errors": [],
+            "data": {
+                "id": "8977130a-585f-4331-8bb6-15f65981a56b",
+                "name": "Kanban",
+                "lanes": [
+                    {
+                        "id": "69e940c0-0b2c-41a9-b1b7-182918418ffc",
+                        "name": "Planned",
+                        "status": [
+                            "A",
+                            "B",
+                            "C"
+                        ],
+                        "tasks": [
+                            {
+                                "id": "2974c9eb-b1be-46e0-ad9a-d74164ab4d32",
+                                "title": "Plan task A",
+                                "subtasks": [
+                                    {
+                                        "id": "2d7d2227-ac6e-4502-9ad5-eb5b4e38e31f",
+                                        "subtitle": "Subtask A",
+                                        "isDone": false,
+                                        "laneId": "69e940c0-0b2c-41a9-b1b7-182918418ffc",
+                                        "taskId": "2974c9eb-b1be-46e0-ad9a-d74164ab4d32",
+                                        "status": 0
+                                    },
+                                    {
+                                        "id": "2662fc6d-bb13-4861-a4a3-2e5c5f3b5c72",
+                                        "subtitle": "Subtask B",
+                                        "isDone": false,
+                                        "laneId": "69e940c0-0b2c-41a9-b1b7-182918418ffc",
+                                        "taskId": "2974c9eb-b1be-46e0-ad9a-d74164ab4d32",
+                                        "status": 1
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "499378bb-3dee-43b7-9974-bb73f82a2b05",
+                        "name": "Test",
+                        "status": [
+                            "Plan",
+                            "Doing"
+                        ],
+                        "tasks": [
+                            {
+                                "id": "3c544ba2-b832-4fbc-874d-a6ed49c9024b",
+                                "title": "New Test Task",
+                                "subtasks": [
+                                    {
+                                        "id": "222b5505-0ad6-4d38-b56e-af71768a6022",
+                                        "subtitle": "Ready ",
+                                        "isDone": false,
+                                        "laneId": "499378bb-3dee-43b7-9974-bb73f82a2b05",
+                                        "taskId": "3c544ba2-b832-4fbc-874d-a6ed49c9024b",
+                                        "status": 0
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "ownerId": "13cb5568-5f0b-4b1c-8e24-6b9f307888af",
+                "userIds": []
+            }
+        }
+    ]
+}
